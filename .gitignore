@@ -1,0 +1,28 @@
+# APKTool work directories
+work/
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Gradle (if present)
+.gradle/
+build/
+
+# Signing keys (DO NOT commit real keystores)
+*.keystore
+*.jks
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# But keep .gitkeep in empty dirs
+!.gitkeep
